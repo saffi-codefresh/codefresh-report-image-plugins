@@ -29,4 +29,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo 'Update plugins'
+          yarn install
           yarn release
