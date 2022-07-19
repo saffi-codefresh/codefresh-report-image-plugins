@@ -6,7 +6,7 @@
   "author": "Saffi <saffi.hartal@codefresh.io>",
   "license": "MIT",
   "scripts": {
-    "release": "yarn run release-it --patch --ci"
+    "release-action": "yarn run release-it --patch --ci"
   },
   "devDependencies": {
     "release-it": "^15.1.2"
