@@ -31,7 +31,7 @@ jobs:
           echo 'Update plugins'
           yarn install
           export GITHUB_TOKEN="${{ secrets.CF_GITHUB_TOKEN }}";
-          git config --global user.email "CI@codefresh.io"
-          git config --global user.name "CI"
+          git config user.email "CI@codefresh.io"
+          git config user.name "CI"
           yarn release
           
