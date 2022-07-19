@@ -30,6 +30,6 @@ jobs:
         run: |
           echo 'Update plugins'
           yarn install
-          export GITHAB_TOKEN=${{ secrets.CF_GITHUB_TOKEN }}
+          export GITHUB_TOKEN="${{ secrets.CF_GITHUB_TOKEN }}";
           yarn release
           
