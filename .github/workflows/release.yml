@@ -31,3 +31,4 @@ jobs:
           echo 'Update plugins'
           yarn install
           yarn release
+          
