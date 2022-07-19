@@ -2,7 +2,7 @@
   "name": "codefresh-report-image-plugins",
   "version": "0.0.150",
   "main": "index.js",
-  "repository": "git@github.com:codefresh-io/codefresh-report-image-plugins.git",
+  "repository": "git@github.com:saffi-codefresh/codefresh-report-image-plugins.git",
   "author": "Saffi <saffi.hartal@codefresh.io>",
   "license": "MIT",
   "scripts": {
